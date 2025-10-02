@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+    <style>
+        .navbar {
+            background-color: #666;
+            overflow: hidden;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+        .navbar-right {
+            float: right;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .btn {
+            padding: 5px 10px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .view { background-color: blue; }
+        .delete { background-color: red; }
+        .edit { background-color: green; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Products</a>
+        <a href="#">Contact Us</a>
+        <div class="navbar-right">
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <h2 style="margin-left:50px;">Product List</h2>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Beginning Laravel & PHP</td>
+            <td>Micheal Corman</td>
+            <td>$120</td>
+            <td>
+                <a href="#" class="btn view">View</a>
+                <a href="#" class="btn delete">Delete</a>
+                <a href="#" class="btn edit">Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Learning HTML & CSS</td>
+            <td>Sarah Khan</td>
+            <td>$99</td>
+            <td>
+                <a href="#" class="btn view">View</a>
+                <a href="#" class="btn delete">Delete</a>
+                <a href="#" class="btn edit">Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Mastering JavaScript</td>
+            <td>Ali Raza</td>
+            <td>$150</td>
+            <td>
+                <a href="#" class="btn view">View</a>
+                <a href="#" class="btn delete">Delete</a>
+                <a href="#" class="btn edit">Edit</a>
+            </td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Python for Beginners</td>
+            <td>Ayesha Noor</td>
+            <td>$110</td>
+            <td>
+                <a href="#" class="btn view">View</a>
+                <a href="#" class="btn delete">Delete</a>
+                <a href="#" class="btn edit">Edit</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
